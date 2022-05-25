@@ -17,7 +17,6 @@ char answer;
 
 
 //SORAYA KHENE
-//WISSAM MELIOUH
 printf("\n *********************************************************************\n\n");
 printf(" BIENVENU AU SYSTEM QUI VA VOUS AIDEZ A GERER VOTRE BIBLIOTHEQUE!\n\n");
 printf(" *********************************************************************\n\n");
@@ -143,7 +142,7 @@ if(scanf("%d", &option)!=1){printf("ERREUR DE SAISIE: saisiez un entier la proch
                         reO=existeO(tO,cote,&reO);}
                         while(reO==NULL);
                         if(verifO(reO,cote)!=NULL){
-                        printf("\n\nL'ouvrage existe en %d exemplaires\nLe Titre :%s\nLa Cote: %s\nNbr d'Exemplaires :%d\nNbr d'Exemplaire Emprunté :%d\n",reO->exemplaireB-reO->exemplaireE,reO->titre,reO->cote,reO->exemplaireB,reO->exemplaireE);
+                        printf("\n\nL'ouvrage existe en %d exemplaires\nLe Titre :%s\nLa Cote: %s\nNbr d'Exemplaires :%d\nNbr d'Exemplaire EmpruntÃ© :%d\n",reO->exemplaireB-reO->exemplaireE,reO->titre,reO->cote,reO->exemplaireB,reO->exemplaireE);
                         }
                         else
                         {
